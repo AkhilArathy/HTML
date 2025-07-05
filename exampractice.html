@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exampractice1</title>
+</head>
+<body>
+	<h1>APPLICATION</h1>
+	<form method="post">
+		<label for="fname">Name : </label>
+	  	<input type="text" id="fname" name="fname" placeholder="Name" maxlength="25" required><br><br>
+	  	<label for="email">Last name: </label> 
+	  	<input type="email" id="email" name="email" value="test@example.com" autofocus required><br><br>
+	  	<label for="password">Password : </label>
+	  	<input type="password" id="password" name="password" placeholder="******" minlength="6" required><br><br>
+	  	<label for="category">Category: </label>
+	  	<select id="category" name="category" required>
+	    <option value="student">Student</option>
+	    <option value="employee">Employee</option>
+	    <option value="freelancer" selected>Freelancer</option>
+		</select>
+		<label for="date">Event Date : </label>
+	  	<input type="date" id="date" name="date" required><br><br>
+	  	<label for="ticket">No Of Tickets : </label>
+  <input type = "radio" name = "ticket" value = "1 ticket"> 1 Ticket
+         <input type = "radio" name = "ticket" value = "2 ticket" checked> 2 Ticket
+         <input type = "radio" name = "ticket" value = "3 ticket"> 3 Ticket<br><br>
+         <label for="payment">Payment mode: </label>
+         <input type="checkbox" name="checkbox" checked required>Online Payment<br><br>
+         <label for="notes">Notes: </label>
+         <textarea rows = "5" cols = "50" name = "description" id="notes" placeholder="Notes Field"></textarea><br><br>
+         <input type="submit" name="submit">
+	</form>
+</body>
+</html>
